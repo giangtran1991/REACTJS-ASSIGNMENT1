@@ -1,0 +1,31 @@
+.navBarItem {
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.navBarItemContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 0px 0px;
+}
+
+.navBarList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.navBarListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navBarListItem .active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
